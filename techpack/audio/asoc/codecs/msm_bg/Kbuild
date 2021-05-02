@@ -64,6 +64,10 @@ CDEFINES +=	-DANI_LITTLE_BYTE_ENDIAN \
 		-DANI_OS_TYPE_ANDROID=6 \
 		-DPTT_SOCK_SVC_ENABLE \
 		-Wall\
+<<<<<<< HEAD
+=======
+		-Werror\
+>>>>>>> kudproject/a11/upstream-aosp
 		-D__linux__
 
 KBUILD_CPPFLAGS += $(CDEFINES)
@@ -92,3 +96,9 @@ endif
 # Module information used by KBuild framework
 obj-$(CONFIG_SND_SOC_BG_CODEC) += bg_codec_dlkm.o
 bg_codec_dlkm-y := $(BG_CODEC_CDC_OBJS)
+<<<<<<< HEAD
+=======
+
+# inject some build related information
+DEFINES += -DBUILD_TIMESTAMP=\"$(shell date -u +'%Y-%m-%dT%H:%M:%SZ')\"
+>>>>>>> kudproject/a11/upstream-aosp
