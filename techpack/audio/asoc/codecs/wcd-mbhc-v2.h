@@ -143,11 +143,7 @@ do {                                                    \
 #define MBHC_BUTTON_PRESS_THRESHOLD_MIN 250
 #define GND_MIC_SWAP_THRESHOLD 4
 #define GND_MIC_USBC_SWAP_THRESHOLD 2
-<<<<<<< HEAD
 #define WCD_FAKE_REMOVAL_MIN_PERIOD_MS 1000
-=======
-#define WCD_FAKE_REMOVAL_MIN_PERIOD_MS 100
->>>>>>> kudproject/a11/upstream-aosp
 #define HS_VREF_MIN_VAL 1400
 #define FW_READ_ATTEMPTS 15
 #define FW_READ_TIMEOUT 4000000
